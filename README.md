@@ -5,4 +5,4 @@
 低通滤波器容许低于截止频率的信号通过，而高于截止频率的信号不能通过。低通滤波器可以去除信号中的高频成分，只留下低频信号，可以用于去除信号中的高频噪声。
 开发工具：Vivado2018.3
 板卡型号：Xc7s15ftgb196-1
-仓库目录：verilog设计文件位于zyhhym/Lab_9/Lab_9.srcs/sources_1/new/
+仓库目录：verilog设计文件位于zyhhym/Lab_9/Lab_9.srcs/sources_1/new/.仿真文件位于zyhhym/Lab_9/Lab_9.srcs/sim_1/new/.
