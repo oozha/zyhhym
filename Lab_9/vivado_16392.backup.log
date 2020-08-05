@@ -1,0 +1,167 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jul 30 22:35:06 2020
+# Process ID: 16392
+# Current directory: D:/zyhwork/Lab_9
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16184 D:\zyhwork\Lab_9\Lab_9.xpr
+# Log file: D:/zyhwork/Lab_9/vivado.log
+# Journal file: D:/zyhwork/Lab_9\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/zyhwork/Lab_9/Lab_9.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/zyhwork/Frequency_Divider_Demo/Frequency_Divider_Demo.srcs/xgui'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/zyhwork/Frequency_Divider_Demo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx_Vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:12 . Memory (MB): peak = 817.902 ; gain = 198.246
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx_Vivado/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim/Rom_Sin.mif'
+INFO: [SIM-utils-43] Exported 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim/Sin_Wave_Rom.coe'
+INFO: [SIM-utils-43] Exported 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim/Rom_Square.mif'
+INFO: [SIM-utils-43] Exported 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim/Square_Wave_Rom.coe'
+INFO: [SIM-utils-43] Exported 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim/Rom_Triangle.mif'
+INFO: [SIM-utils-43] Exported 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim/Triangle_Wave_Rom.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx_Vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 378b5d3b02d44c3c8142c6d5c6fe3204 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'DAC_En' [D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/Lab_9.v:35]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 9 for port 'Phase' [D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/Lab_9.v:37]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -view {D:/zyhwork/Lab_9/testbench_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/zyhwork/Lab_9/testbench_behav.wcfg
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.test.Driver_DAC0.Sin_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.test.Driver_DAC0.Square_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.test.Driver_DAC0.Triangle_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning : input CLKIN1 period and attribute CLKIN1_PERIOD on PLLE2_ADV instance testbench.test.clk_division.inst.plle2_adv_inst are not same.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 911.504 ; gain = 13.633
+close [ open D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/fir.v w ]
+add_files D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/fir.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/zyhwork/Lab_9/Lab_9.srcs/sim_1/new/tb.v w ]
+add_files -fileset sim_1 D:/zyhwork/Lab_9/Lab_9.srcs/sim_1/new/tb.v
+update_compile_order -fileset sim_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx_Vivado/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim/Rom_Sin.mif'
+INFO: [SIM-utils-43] Exported 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim/Sin_Wave_Rom.coe'
+INFO: [SIM-utils-43] Exported 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim/Rom_Square.mif'
+INFO: [SIM-utils-43] Exported 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim/Square_Wave_Rom.coe'
+INFO: [SIM-utils-43] Exported 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim/Rom_Triangle.mif'
+INFO: [SIM-utils-43] Exported 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim/Triangle_Wave_Rom.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx_Vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 378b5d3b02d44c3c8142c6d5c6fe3204 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'DAC_En' [D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/Lab_9.v:35]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 9 for port 'Phase' [D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/Lab_9.v:37]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -view {D:/zyhwork/Lab_9/testbench_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/zyhwork/Lab_9/testbench_behav.wcfg
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.test.Driver_DAC0.Sin_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.test.Driver_DAC0.Square_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.test.Driver_DAC0.Triangle_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning : input CLKIN1 period and attribute CLKIN1_PERIOD on PLLE2_ADV instance testbench.test.clk_division.inst.plle2_adv_inst are not same.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 950.445 ; gain = 0.000
+export_ip_user_files -of_objects  [get_files D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/fir.v] -no_script -reset -force -quiet
+remove_files  D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/fir.v
+export_ip_user_files -of_objects  [get_files D:/zyhwork/Lab_9/Lab_9.srcs/sim_1/new/tb.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/zyhwork/Lab_9/Lab_9.srcs/sim_1/new/tb.v
+save_wave_config {D:/zyhwork/Lab_9/testbench_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 30 22:53:20 2020...

@@ -1,0 +1,18 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/zyhwork/Lab_9/Lab_9.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/zyhwork/Lab_9/Lab_9.srcs/sim_1/new/tb.v,1596167267,verilog,,,,tb,,,../../../../Lab_9.srcs/sources_1/ip/clk_5_10,,,,,
+D:/zyhwork/Lab_9/Lab_9.srcs/sim_1/new/testbench.v,1595504846,verilog,,,,testbench,,,../../../../Lab_9.srcs/sources_1/ip/clk_5_10,,,,,
+D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/Frequency_Divider_Demo/Frequency_Divider_Demo.srcs/sources_1/new/clk_division.v,1595485156,verilog,,D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/ip/clk_division_0/sim/clk_division_0.v,,clk_division,,,../../../../Lab_9.srcs/sources_1/ip/clk_5_10,,,,,
+D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/ip/Rom_Sin/sim/Rom_Sin.v,1595499600,verilog,,D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/Frequency_Divider_Demo/Frequency_Divider_Demo.srcs/sources_1/new/clk_division.v,,Rom_Sin,,,../../../../Lab_9.srcs/sources_1/ip/clk_5_10,,,,,
+D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/ip/Rom_Square/sim/Rom_Square.v,1595490880,verilog,,D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/ip/Rom_Sin/sim/Rom_Sin.v,,Rom_Square,,,../../../../Lab_9.srcs/sources_1/ip/clk_5_10,,,,,
+D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/ip/Rom_Triangle/sim/Rom_Triangle.v,1595490929,verilog,,D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/ip/Rom_Square/sim/Rom_Square.v,,Rom_Triangle,,,../../../../Lab_9.srcs/sources_1/ip/clk_5_10,,,,,
+D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/ip/clk_5_10/clk_5_10.v,1595495407,verilog,,D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/DDS_Addr_Generator.v,,clk_5_10,,,../../../../Lab_9.srcs/sources_1/ip/clk_5_10,,,,,
+D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/ip/clk_5_10/clk_5_10_clk_wiz.v,1595495407,verilog,,D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/ip/clk_5_10/clk_5_10.v,,clk_5_10_clk_wiz,,,../../../../Lab_9.srcs/sources_1/ip/clk_5_10,,,,,
+D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/ip/clk_division_0/sim/clk_division_0.v,1595485156,verilog,,D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/ip/clk_5_10/clk_5_10_clk_wiz.v,,clk_division_0,,,../../../../Lab_9.srcs/sources_1/ip/clk_5_10,,,,,
+D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/DDS_Addr_Generator.v,1595496227,verilog,,D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/Driver_DAC.v,,DDS_Addr_Generator,,,../../../../Lab_9.srcs/sources_1/ip/clk_5_10,,,,,
+D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/Driver_DAC.v,1595506387,verilog,,D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/Lab_9.v,,Driver_DAC,,,../../../../Lab_9.srcs/sources_1/ip/clk_5_10,,,,,
+D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/Lab_9.v,1595494352,verilog,,D:/zyhwork/Lab_9/Lab_9.srcs/sim_1/new/testbench.v,,Lab_9,,,../../../../Lab_9.srcs/sources_1/ip/clk_5_10,,,,,
+D:/zyhwork/Lab_9/Lab_9.srcs/sources_1/new/fir.v,1596166930,verilog,,D:/zyhwork/Lab_9/Lab_9.srcs/sim_1/new/tb.v,,fir,,,../../../../Lab_9.srcs/sources_1/ip/clk_5_10,,,,,
