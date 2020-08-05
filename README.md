@@ -7,4 +7,4 @@
 板卡型号：Xc7s15ftgb196-1
 仓库目录：verilog设计文件位于zyhhym/Lab_9/Lab_9.srcs/sources_1/new/.仿真文件位于zyhhym/Lab_9/Lab_9.srcs/sim_1/new/.
          作品照片位于zyhhym/images.
-![image](https://github.com/oozha/zyhhym/images/三角波.jpg)
+![Image text](https://github.com/oozha/zyhhym/images/triangle.jpg)
