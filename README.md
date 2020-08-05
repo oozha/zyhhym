@@ -6,3 +6,4 @@
 开发工具：Vivado2018.3
 板卡型号：Xc7s15ftgb196-1
 仓库目录：verilog设计文件位于zyhhym/Lab_9/Lab_9.srcs/sources_1/new/.仿真文件位于zyhhym/Lab_9/Lab_9.srcs/sim_1/new/.
+         作品照片位于zyhhym/images.
